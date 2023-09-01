@@ -12,7 +12,7 @@ body {
 }
 
 #intro {
-  height: 100%;
+  height: 80%;
   overflow: hidden;
   padding: 7% 7% 7% 0;
 }
@@ -34,15 +34,22 @@ h1 {
 h2 {
   font-family: 'Lato', sans-serif;
   font-size: 3.1em;
-  color: var(--color-e);
+  color: var(--color-b);
   margin: 0;
   text-align: center;
+}
+
+a:visited {
+  color: var(--color-b);
+}
+a:hover {
+  color: var(--color-d);
 }
 
 #title {
   align-content: center;
   height: 100%;
-  overflow: auto;
+  overflow: visible;
 }
 
 .container {
