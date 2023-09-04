@@ -5,10 +5,31 @@
   --color-d: #90e0b4;
   --color-e: #7318ad;
   font-size: 1.5vw;
+  scroll-behavior: smooth;
 }
 
 body {
   margin: 0;
+}
+
+#main-container {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#blog-nav {
+  background-image: url('../images/geo-bg.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 100vw;
+}
+
+a {
+  color: var(--color-b);
 }
 
 a:visited {
@@ -55,7 +76,7 @@ h2 {
   transform: translate(0, 30%);
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   :root {
     font-size: 2.5vw;
   }
@@ -66,6 +87,7 @@ h2 {
     transform: translateY(0);
     left: 0%;
     width: 100%;
+    margin: 0;
   }
 
   #pp {
@@ -74,7 +96,7 @@ h2 {
   }
 
   h1 {
-    margin: 0.5em 0 -0.1em 0 !important;
+    margin: 4.8em 0 -0.1em 0 !important;
   }
 
   h2 {
@@ -83,8 +105,5 @@ h2 {
 
   #title {
     display: inline;
-  }
-  body {
-    margin: 10px;
   }
 }
