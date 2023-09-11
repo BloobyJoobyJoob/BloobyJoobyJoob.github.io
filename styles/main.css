@@ -21,6 +21,7 @@ body {
 .blog-image {
   width: 100%;
   height: auto;
+  max-width: max-content;
 }
 
 #blog-nav {
